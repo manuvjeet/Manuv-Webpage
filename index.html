@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Dashboard</title>
+    <link rel="stylesheet" href="Manuv-Web.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manuv Dashboard</h1>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search data..." onkeyup="filterTable()">
+        </div>
+
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Sample Data Rows -->
+                <tr>
+                    <td>813238</td>
+                    <td>Manuvjeet Singh Kondal</td>
+                    <td>manuvjeetsinghkondal@yahoo.com</td>
+                    <td>IND</td>
+                </tr>
+                <tr>
+                    <td>0039</td>
+                    <td>Anhud Singh Kondal</td>
+                    <td>anhudsinghkondal@gmail.com</td>
+                    <td>IND</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <p>Manuvjeet's Data © 2024</p>
+        </footer>
+    </div>
+
+    <script src="Manuv-Web.js"></script>
+</body>
+</html>
