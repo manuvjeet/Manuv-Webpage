@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +10,13 @@
 <body>
     <div class="container">
         <header>
-            <h1>Manuv Dashboard</h1>
+            <h1>My Dashboard</h1>
         </header>
 
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="Search data..." onkeyup="filterTable()">
-        </div>
+            <div id="suggestions" class="suggestions-box"></div>
+        </div><br>
 
         <table id="dataTable">
             <thead>
@@ -23,22 +25,25 @@
                     <th>Name</th>
                     <th>Email</th>
                     <th>Country</th>
+                    <th>Relation</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Sample Data Rows -->
+                <!-- My Data Rows -->
                 <tr>
-                    <td>813238</td>
+                    <td>1</td>
                     <td>Manuvjeet Singh Kondal</td>
                     <td>manuvjeetsinghkondal@yahoo.com</td>
                     <td>IND</td>
+                    <td>Big Brother</td>
                 </tr>
                 <tr>
-                    <td>0039</td>
+                    <td>2</td>
                     <td>Anhud Singh Kondal</td>
                     <td>anhudsinghkondal@gmail.com</td>
                     <td>IND</td>
-                </tr>
+                    <td>Younger Brother</td>
+                </tr><br>
             </tbody>
         </table>
 
